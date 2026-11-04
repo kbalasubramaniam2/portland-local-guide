@@ -8,42 +8,94 @@
 </head>
 <body>
 
-  <header>
-    <h1>Portland, Oregon</h1>
-    <p>The Official Visitor's Local Guide</p>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="things-to-do.html">Things to Do</a></li>
-        <li><a href="food-dining.html">Food &amp; Dining</a></li>
-      </ul>
-    </nav>
+  <!-- Banner -->
+  <header class="top-banner">
+    <div class="banner-content">
+      <h1>Portland, Oregon</h1>
+      <p>The Official Visitor's Local Guide</p>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="things-to-do.html">Things to Do</a></li>
+          <li><a href="food-dining.html" class="active">Food &amp; Dining</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
-  <main>
-    <h2>Local Eats &amp; Specialty Coffee</h2>
+  <div class="page-wrapper">
+    <!-- Body Content -->
+    <main>
+      <section class="intro-box">
+        <h2>Local Eats &amp; Specialty Coffee</h2>
+        <p>Consistently named one of America's best food destinations, Portland offers everything from outdoor food cart pods serving world street food to third-wave coffee pioneer roasters.</p>
+      </section>
 
-    <section class="card-container">
-      <article class="card">
-        <h3>Hawthorne Asylum Food Cart Pod</h3>
-        <p>A bustling outdoor pod featuring a fire pit and dozens of food vendor carts serving international dishes, fresh juices, and sweet treats.</p>
-      </article>
+      <div class="card-container">
+        <article class="card">
+          <img src="Images/food_cart_pod.jpg" alt="Food cart pod area under the sunset with string lights">
+          <span class="card-tag">Food Pod</span>
+          <h3>Hawthorne Asylum Food Cart Pod</h3>
+          <p>A popular open-air pod built around a central fire pit, featuring dozens of international food carts serving everything from Egyptian street food and wood-fired pizzas to vegan pastries.</p>
+        </article>
 
-      <article class="card">
-        <h3>Stumptown Coffee Roasters</h3>
-        <p>A Portland staple known for pioneering specialty direct-trade coffee, craft cold brews, and historic downtown cafes.</p>
-      </article>
+        <article class="card">
+          <img src="Images/stumptown_coffee.jpg" alt="Fresh espresso drink with latte art in a ceramic cup beside coffee beans">
+          <span class="card-tag">Specialty Coffee</span>
+          <h3>Stumptown Coffee Roasters</h3>
+          <p>A national coffee pioneer born in Portland, famous for direct-trade sourcing, craft nitro cold brew on tap, and historic cafes serving artisanal espresso drinks across the city.</p>
+        </article>
 
-      <article class="card">
-        <h3>Voodoo Doughnut &amp; Blue Star</h3>
-        <p>Experience the clash of doughnut cultures: playful, quirky flavors at Voodoo versus gourmet, brioche-style treats at Blue Star.</p>
-        <!-- TODO: Add price ranges, addresses, and external links for each restaurant -->
-      </article>
-    </section>
-  </main>
+        <article class="card">
+          <img src="Images/voodoo_donuts.jpg" alt="Box of colorful gourmet donuts with creative frosting">
+          <span class="card-tag">Bakery &amp; Sweets</span>
+          <h3>Voodoo Doughnut &amp; Blue Star</h3>
+          <p>Explore Portland's famous doughnut rivalry: whimsical, playful toppings at 24/7 cash-only Voodoo Doughnut versus gourmet brioche-style pastries crafted with local liquor at Blue Star.</p>
+        </article>
+
+        <article class="card">
+          <img src="Images/pine_street_market.jpg" alt="Modern indoor food hall with rustic wooden seating and vendor stalls">
+          <span class="card-tag">Food Hall</span>
+          <h3>Pine Street Market</h3>
+          <p>Located in the historic 1886 Baggage Building downtown, this indoor food hall brings together top regional chefs serving ramen, gourmet smash burgers, and artisanal soft-serve.</p>
+        </article>
+
+        <article class="card">
+          <img src="Images/coffee.jpg" alt="Barista pouring water over coffee filter.">
+          <span class="card-tag">Ethical Coffee</span>
+          <h3>Nossa Familia Coffee</h3>
+          <p>Portland's first B-Corp certified coffee roaster, serving ethically sourced Brazilian family-farm coffee in warm, eco-conscious cafes in the Pearl District and Central Eastside.</p>
+        </article>
+
+        <article class="card">
+          <img src="Images/screen_door_restaurant.jpg" alt="Southern fried chicken waffle tower topped with a lemon">
+          <span class="card-tag">Farm-To-Table</span>
+          <h3>Screen Door Restaurant</h3>
+          <p>Renowned for legendary Southern comfort cuisine prepared using fresh Pacific Northwest farm ingredients. Famous for buttermilk fried chicken, sweet potato waffles, and praline bacon.</p>
+        </article>
+      </div>
+    </main>
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <div class="widget">
+        <h3>Food Cart Etiquette</h3>
+        <ul>
+          <li><strong>Payment:</strong> Most carts accept credit cards, but carrying cash is recommended.</li>
+          <li><strong>Seating:</strong> Seating is communal—feel free to share a table!</li>
+          <li><strong>Bus Your Table:</strong> Always clear your trash at designated recycling stations.</li>
+        </ul>
+      </div>
+
+      <div class="widget">
+        <h3>Dietary Friendly</h3>
+        <p>Portland is widely recognized as one of the most gluten-free and vegan-friendly culinary cities in North America, with dedicated plant-based menus at almost every restaurant.</p>
+      </div>
+    </aside>
+  </div>
 
   <footer>
-    <p>&copy; 2026 Portland Local Guide. Built for WEB 110.</p>
+    <p>&copy; 2026 Portland Local Guide. Designed for WEB 110.</p>
   </footer>
 
 </body>
