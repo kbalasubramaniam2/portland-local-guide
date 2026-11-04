@@ -8,37 +8,71 @@
 </head>
 <body>
 
-  <header>
-    <h1>Portland, Oregon</h1>
-    <p>The Official Visitor's Local Guide</p>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="things-to-do.html">Things to Do</a></li>
-        <li><a href="food-dining.html">Food &amp; Dining</a></li>
-      </ul>
-    </nav>
+  <!-- Banner -->
+  <header class="top-banner">
+    <div class="banner-content">
+      <h1>Portland, Oregon</h1>
+      <p>The Official Visitor's Local Guide</p>
+      <nav>
+        <ul>
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="things-to-do.html">Things to Do</a></li>
+          <li><a href="food-dining.html">Food &amp; Dining</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
-  <main>
-    <section class="hero">
-      <h2>Welcome to the City of Roses</h2>
-      <p>Discover Portland’s lush green parks, world-famous coffee shops, iconic independent bookstores, and vibrant food cart culture.</p>
-      <!-- TODO: Add hero image of Portland skyline or Mount Hood -->
-    </section>
+  <div class="page-wrapper">
+    <!-- Body Content -->
+    <main>
+      <section class="hero-box">
+        <h2>Welcome to the City of Roses</h2>
+        <p>Situated in the Pacific Northwest between the snow-capped peak of Mount Hood and the wide currents of the Willamette River, Portland, Oregon, is a city built on creative independence, outdoor passion, and sustainable living.</p>
+        
+        <img src="Images/portland_skyline.jpg" alt="Panoramic view of downtown Portland skyline with Mount Hood towering in the distance" class="hero-image">
+        
+        <p>Whether you're visiting for a weekend getaway or planning an extended stay, Portland offers an unmatched combination of urban parks, world-renowned microbreweries, historic indie bookstores, and a celebrated food culture.</p>
+      </section>
 
-    <section class="highlights">
-      <h3>Why Visit Portland?</h3>
-      <ul>
-        <li><strong>Walkable Neighborhoods:</strong> Explore distinct districts like the Pearl District, Alberta Arts, and Hawthorne.</li>
-        <li><strong>Lush Green Spaces:</strong> Home to Forest Park, one of the largest urban forest reserves in the country.</li>
-        <li><strong>Culinary Capital:</strong> Over 500 food carts operating across the city in vibrant neighborhood pods.</li>
-      </ul>
-    </section>
-  </main>
+      <section class="intro-box">
+        <h2>Why Visit Portland?</h2>
+        <p>Portland stands out among American cities for its commitment to green spaces, walkable districts, and distinct micro-neighborhoods.</p>
+        <ul class="highlights-list">
+          <li><strong>Walkable Neighborhoods:</strong> Explore distinct districts like the historic Pearl District, bohemian Alberta Arts, and vintage-filled Hawthorne Boulevard.</li>
+          <li><strong>Lush Green Spaces:</strong> Home to Forest Park, one of the nation's largest urban forest reserves, offering over 80 miles of scenic hiking trails inside city limits.</li>
+          <li><strong>Culinary Innovation:</strong> Over 500 food carts operating across neighborhood pods, serving authentic international dishes alongside award-winning fine dining.</li>
+          <li><strong>Eco-Friendly Transit:</strong> Effortlessly navigate the city via the MAX Light Rail, Portland Streetcar, and miles of dedicated bicycle highways.</li>
+        </ul>
+      </section>
+    </main>
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <div class="widget">
+        <ul>
+          <li><strong>Elevation:</strong> 50 ft above sea level</li>
+          <li><strong>Average Summer Temp:</strong> 81°F / 57°F</li>
+          <li><strong>Nickname:</strong> City of Roses / Stumptown</li>
+          <li><strong>Sales Tax:</strong> 0% (Tax-Free Shopping!)</li>
+        </ul>
+      </div>
+
+      <div class="widget">
+        <h3>Best Time to Visit</h3>
+        <p><strong>June to September:</strong> Warm, dry weather ideal for outdoor festivals, rose blooms, and patio dining.</p>
+        <p style="margin-top: 0.75rem;"><strong>October to May:</strong> Mild and rainy—perfect for exploring indoor coffee shops, museums, and bookstores.</p>
+      </div>
+
+      <div class="widget">
+        <h3>Local Tip</h3>
+        <p>Portland streets are laid out in a grid divided into six quadrants: North, Northeast, Northwest, South, Southeast, and Southwest. Look at any street sign to quickly orient yourself!</p>
+      </div>
+    </aside>
+  </div>
 
   <footer>
-    <p> Portland Local Guide. Built for WEB 110.</p>
+    <p>&copy; 2026 Portland Local Guide. Designed for WEB 110.</p>
   </footer>
 
 </body>
