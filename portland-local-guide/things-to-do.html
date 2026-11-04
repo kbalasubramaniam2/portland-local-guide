@@ -8,44 +8,95 @@
 </head>
 <body>
 
-  <header>
-    <h1>Portland, Oregon</h1>
-    <p>The Official Visitor's Local Guide</p>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="things-to-do.html">Things to Do</a></li>
-        <li><a href="food-dining.html">Food &amp; Dining</a></li>
-      </ul>
-    </nav>
+  <!-- Banner -->
+  <header class="top-banner">
+    <div class="banner-content">
+      <h1>Portland, Oregon</h1>
+      <p>The Official Visitor's Local Guide</p>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="things-to-do.html" class="active">Things to Do</a></li>
+          <li><a href="food-dining.html">Food &amp; Dining</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
-  <main>
-    <h2>Explore Portland's Top Sights</h2>
+  <div class="page-wrapper">
+    <!-- Body Content -->
+    <main>
+      <section class="intro-box">
+        <h2>Explore Portland's Top Sights</h2>
+        <p>From historic independent bookstores spanning entire city blocks to peaceful mountainside gardens and sprawling urban forests, Portland offers unforgettable activities for every interest.</p>
+      </section>
 
-    <section class="card-container">
-      <article class="card">
-        <h3>Powell's City of Books</h3>
-        <p>Occupying an entire city block in the Pearl District, Powell's is the world's largest independent bookstore. Browse over one million books across nine color-coded rooms.</p>
-        <!-- TODO: Add photo of Powell's storefront -->
-      </article>
+      <div class="card-container">
+        <article class="card">
+          <img src="Images/powells_bookstore.jpg" alt="Rows of packed bookshelves inside Powell's City of Books">
+          <span class="card-tag">Culture &amp; Shopping</span>
+          <h3>Powell's City of Books</h3>
+          <p>Occupying an entire city block in the Pearl District, Powell's is the world's largest independent bookstore. Browse over one million new and used titles organized across nine color-coded rooms.</p>
+        </article>
 
-      <article class="card">
-        <h3>Portland Japanese Garden</h3>
-        <p>Nestled in Washington Park, this serene 12-acre retreat features Japanese landscape design, authentic tea houses, and views of Mount Hood.</p>
-        <!-- TODO: Add photo of Japanese Garden -->
-      </article>
+        <article class="card">
+          <img src="Images/japanese_garden.jpg" alt="Tranquil Japanese garden landscape with stone structure and a waterfall.">
+          <span class="card-tag">Nature &amp; Views</span>
+          <h3>Portland Japanese Garden</h3>
+          <p>Located in Washington Park, this serene 12-acre retreat features five traditional garden styles, authentic tea houses, cascading waterfalls, and sweeping vistas of Mount Hood.</p>
+        </article>
 
-      <article class="card">
-        <h3>Forest Park</h3>
-        <p>Hike over 80 miles of trails in this sprawling 5,200-acre urban forest located right in the heart of the city.</p>
-        <!-- TODO: Add photo of hiking trail -->
-      </article>
-    </section>
-  </main>
+        <article class="card">
+          <img src="Images/forest_park.jpg" alt="Forest riverside trail with sunbeams breaking through the trees">
+          <span class="card-tag">Outdoor Adventure</span>
+          <h3>Forest Park &amp; Wildwood Trail</h3>
+          <p>Hike through thousands of acres of towering Douglas firs right inside city limits. The famous 30-mile Wildwood Trail links major park landmarks and scenic viewpoints.</p>
+        </article>
+
+        <article class="card">
+          <img src="Images/rose_garden.jpg" alt="Vibrant pink, yellow, and red roses blooming in garden beds">
+          <span class="card-tag">Historic Landmark</span>
+          <h3>International Rose Test Garden</h3>
+          <p>Established in 1917, this historic garden features over 10,000 individual rose bushes blooming from late spring through autumn, with completely free admission for all visitors.</p>
+        </article>
+
+        <article class="card">
+          <img src="Images/omsi_museum.jpg" alt="USS submarine docked at Oregon Museum of Science & Industry along the river">
+          <span class="card-tag">Science &amp; Family</span>
+          <h3>Oregon Museum of Science (OMSI)</h3>
+          <p>Situated on the east bank of the Willamette River, OMSI features hands-on science labs, an IMAX theater, a planetarium, and guided tours of a decommissioned Navy submarine.</p>
+        </article>
+
+        <article class="card">
+          <img src="Images/saturday_market.jpg" alt="Aerial view of the crowded artisan craft market stalls by the riverfront">
+          <span class="card-tag">Local Arts</span>
+          <h3>Portland Saturday Market</h3>
+          <p>Operating since 1974, this is the nation's largest continuously run open-air arts and crafts market, showcasing handcrafted items, street performers, and local food vendors.</p>
+        </article>
+      </div>
+    </main>
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <div class="widget">
+        <h3>Getting Around Sights</h3>
+        <ul>
+          <li><strong>MAX Light Rail:</strong> Serves Washington Park (Rose Garden/Japanese Garden) and Downtown.</li>
+          <li><strong>Streetcar:</strong> Loops through Pearl District (Powell's) and South Waterfront.</li>
+          <li><strong>Biketown:</strong> Electric pedal-assist bikes available at stations citywide.</li>
+        </ul>
+      </div>
+
+      <div class="widget">
+        <h3>Budget Travel Tips</h3>
+        <p>• The International Rose Test Garden and Forest Park are completely <strong>free</strong> year-round.</p>
+        <p style="margin-top: 0.5rem;">• Powell's allows visitors to read books freely while sipping coffee inside their cafe.</p>
+      </div>
+    </aside>
+  </div>
 
   <footer>
-    <p>&copy; 2026 Portland Local Guide. Built for WEB 110.</p>
+    <p>&copy; 2026 Portland Local Guide. Designed for WEB 110.</p>
   </footer>
 
 </body>
